@@ -14,5 +14,8 @@ Comment the `<footer>`.
 
 ## 3. [assets/css/global.css](assets/css/global.css)
 
-Change `::selection background`, `a color` to `--red`.
+Add `--primary: var(--red)`.
 
+## 4. [assets/css/screen.css](assets/css/screen.css)
+
+Replace all `var(--blue)` with `var(--primary)` in `*.css` files.
